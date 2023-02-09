@@ -1,3 +1,11 @@
+## Configurando Swagger en nuestro proyecto y generando la documentación del API REST
+
+Para lo documentación a través de Suagger se importaron las siguientes dependencias en el archivo build.gradle:
+```
+	implementation 'io.springfox:springfox-swagger2:3.0.0'
+	implementation 'io.springfox:springfox-boot-starter:3.0.0'
+```
+
 <img align="right" src="https://github.com/ada-school/module-template/blob/main/ada.png">
 
 ## Codelab 🧪 Implementing a REST API Service
