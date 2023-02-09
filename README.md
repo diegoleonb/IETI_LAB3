@@ -5,6 +5,22 @@ Para lo documentación a través de Suagger se importaron las siguientes depende
 	implementation 'io.springfox:springfox-swagger2:3.0.0'
 	implementation 'io.springfox:springfox-boot-starter:3.0.0'
 ```
+`
+@Configuration
+@EnableSwagger2
+public class SpringFoxConfig{
+
+    @Bean
+    public Docket api() { 
+        return new Docket(DocumentationType.SWAGGER_2)  
+          .select()                                  
+          .apis(RequestHandlerSelectors.any())              
+          .paths(PathSelectors.any())                          
+          .build();                                           
+    }
+    
+}
+`
 
 <img align="right" src="https://github.com/ada-school/module-template/blob/main/ada.png">
 
