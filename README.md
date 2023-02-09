@@ -2,8 +2,8 @@
 
 Para lo documentación a través de Suagger se importaron las siguientes dependencias en el archivo build.gradle:
 ```
-	implementation 'io.springfox:springfox-swagger2:3.0.0'
-	implementation 'io.springfox:springfox-boot-starter:3.0.0'
+implementation 'io.springfox:springfox-swagger2:3.0.0'
+implementation 'io.springfox:springfox-boot-starter:3.0.0'
 ```
 La configuración de Swagger se centra sobre el bean Docket:
 
@@ -44,6 +44,10 @@ Por último agregamos la siguiente configuración al recurso denominado: applica
 ```
 spring.mvc.pathmatch.matching-strategy=ANT_PATH_MATCHER
 ```
+Ahora accedemos al recurso a través de la dirección:
+
+[Link]: http://localhost:8080/swagger-ui/index.html#/
+
 
 <img align="right" src="https://github.com/ada-school/module-template/blob/main/ada.png">
 
