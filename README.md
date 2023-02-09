@@ -46,7 +46,7 @@ spring.mvc.pathmatch.matching-strategy=ANT_PATH_MATCHER
 ```
 Ahora accedemos al recurso a través de la dirección:
 
-[Link]: http://localhost:8080/swagger-ui/index.html#/
+[Link](http://localhost:8080/swagger-ui/index.html#/)
 
 
 <img align="right" src="https://github.com/ada-school/module-template/blob/main/ada.png">
