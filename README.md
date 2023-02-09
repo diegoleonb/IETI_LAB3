@@ -48,6 +48,9 @@ Ahora accedemos al recurso a través de la dirección:
 
 [Link](http://localhost:8080/swagger-ui/index.html#/)
 
+Una vez accedemos se nos generan las especificaciones para la API REST de Spring:
+
+![image](https://user-images.githubusercontent.com/25957863/217869360-1f22e560-f90b-4b0e-a707-5a4d3f64857c.png)
 
 <img align="right" src="https://github.com/ada-school/module-template/blob/main/ada.png">
 
