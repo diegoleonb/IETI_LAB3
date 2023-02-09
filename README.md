@@ -66,54 +66,9 @@ Si seleccionamos la pestaña de users-Controller podemos ver que Springfox ha ge
 
 Cuando damos click en cada una de las peticiones HTTP, se nos despliega un json con los atributos y tipos del objeto. Así como la especificación de los parámetros requeridos.
 
-![image](https://user-images.githubusercontent.com/25957863/217872632-118db931-32b7-40fe-9f44-3d4993c31ab9.png)
+![Imagen de WhatsApp 2023-02-08 a las 21 23 18](https://user-images.githubusercontent.com/25957863/217878511-3fc5faa2-9185-4e0f-a972-e6b1144091c9.jpg)
 
-<img align="right" src="https://github.com/ada-school/module-template/blob/main/ada.png">
 
-## Codelab 🧪 Implementing a REST API Service
 
-Implement different REST API Services to support a store products management system, implementing each CRUD Operation
-with Pagination for each service (Users and Products):
-
-- Create
-- Read
-- Update
-- Delete
-
-👉 Aim to reach the [Glory of Rest](https://martinfowler.com/articles/richardsonMaturityModel.html).
-
-👉 Use the correct methods and status codes
-of [HTTP Protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP).
-
-👉 It should have at least have
-the [Level 2 - HTTP Verbs of Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html).
-
-**Programming Language**:- Java.
-
-**Framework:** Spring Boot.
-
-**Database:** MongoDB.
-
-**Learning Objectives**
-
-- [ ]  Use the Richardson Maturity Model to implement a REST API Service.
-- [ ]  Implement a REST API Service using Spring Boot.
-- [ ]  Implement CRUD Operations.
-
-## Detail Orientation 🤹🏽
-
-Good code is about details. Follow each step carefully and make sure your code is clean and readable.
-
-**Main Topics**
-
-* Microservices.
-* REST API.
-* MongoDB.
-* Java.
-* Spring Boot.
-
-## Codelab 🧪
-
-🗣️ "I hear and I forget I see and I remember I do and I understand." Confucius
-
+![Imagen de WhatsApp 2023-02-08 a las 21 24 01](https://user-images.githubusercontent.com/25957863/217878877-c022391a-a585-4ff6-bf1f-2b97dff7f053.jpg)
 
