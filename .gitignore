@@ -23,7 +23,7 @@
 hs_err_pid*
 
 #VSCODE
-.vscode/
+.vscode
 
 # IntelliJ IDEA
 .idea/
