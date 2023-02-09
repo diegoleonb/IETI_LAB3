@@ -5,7 +5,10 @@ Para lo documentación a través de Suagger se importaron las siguientes depende
 	implementation 'io.springfox:springfox-swagger2:3.0.0'
 	implementation 'io.springfox:springfox-boot-starter:3.0.0'
 ```
-`
+La configuración de Swagger se centra sobre el bean Docket:
+
+Creamos una clase que contiene el siguiente código:
+```
 @Configuration
 @EnableSwagger2
 public class SpringFoxConfig{
@@ -20,7 +23,27 @@ public class SpringFoxConfig{
     }
     
 }
-`
+```
+Para realizar la configuración de la interfaz gráfica debemos configurar una clase que implemente WebMvcConfigurer así:
+```
+@EnableWebMvc
+public class WebMvc implements WebMvcConfigurer{
+
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("swagger-ui.html")
+        .addResourceLocations("classpath:/META-INF/resources/");
+
+        registry.addResourceHandler("/webjars/**")
+        .addResourceLocations("classpath:/META-INF/resources/webjars/");
+    }
+    
+}
+```
+Por último agregamos la siguiente configuración al recurso denominado: application.properties:
+```
+spring.mvc.pathmatch.matching-strategy=ANT_PATH_MATCHER
+```
 
 <img align="right" src="https://github.com/ada-school/module-template/blob/main/ada.png">
 
