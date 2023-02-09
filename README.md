@@ -72,3 +72,6 @@ Cuando damos click en cada una de las peticiones HTTP, se nos despliega un json 
 
 ![Imagen de WhatsApp 2023-02-08 a las 21 24 01](https://user-images.githubusercontent.com/25957863/217878877-c022391a-a585-4ff6-bf1f-2b97dff7f053.jpg)
 
+Elaborado por:
+- [Jaime Castro](https://github.com/Nicolascastro25)
+- [Diego Leon](https://github.com/diegoleonb)
