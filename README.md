@@ -60,10 +60,9 @@ Si seleccionamos la pestaña de users-Controller podemos ver que Springfox ha ge
 
 ![image](https://user-images.githubusercontent.com/25957863/217871413-017fecdd-fea8-4a9e-94ee-2a097bd900bd.png)
 
-Cuando damos click en cada uno de los métodos HTTP se nos despliega un json con los atributos y tipos del objeto
+Cuando damos click en cada una de las peticiones HTTP, se nos despliega un json con los atributos y tipos del objeto. Así como la especificación de los parámetros requeridos.
 
 ![image](https://user-images.githubusercontent.com/25957863/217872632-118db931-32b7-40fe-9f44-3d4993c31ab9.png)
-
 
 <img align="right" src="https://github.com/ada-school/module-template/blob/main/ada.png">
 
