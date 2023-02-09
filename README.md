@@ -24,6 +24,10 @@ public class SpringFoxConfig{
     
 }
 ```
+Podemos revisar la documentación del API REST que se nos genera:
+
+![Imagen de WhatsApp 2023-02-08 a las 21 21 32](https://user-images.githubusercontent.com/25957863/217877921-8366eedd-1a64-4ad5-8975-41af938f8475.jpg)
+
 Para realizar la configuración de la interfaz gráfica debemos configurar una clase que implemente WebMvcConfigurer así:
 ```
 @EnableWebMvc
