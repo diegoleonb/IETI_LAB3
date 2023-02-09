@@ -52,6 +52,19 @@ Una vez accedemos se nos generan las especificaciones para la API REST de Spring
 
 ![image](https://user-images.githubusercontent.com/25957863/217869360-1f22e560-f90b-4b0e-a707-5a4d3f64857c.png)
 
+Si seleccionamos la pestaña de product-Controller podemos ver que Springfox ha generado las especificaciones para la entidad Usuario con métodos HTTP como GET , POST, PUT y DELETE.
+
+![image](https://user-images.githubusercontent.com/25957863/217869979-f55b153b-388c-4416-bc30-6be15e6fa71a.png)
+
+Si seleccionamos la pestaña de users-Controller podemos ver que Springfox ha generado las especificaciones para la entidad Usuario con métodos HTTP como GET , POST, PUT y DELETE.
+
+![image](https://user-images.githubusercontent.com/25957863/217871413-017fecdd-fea8-4a9e-94ee-2a097bd900bd.png)
+
+Cuando damos click en cada uno de los métodos HTTP se nos despliega un json con los atributos y tipos del objeto
+
+![image](https://user-images.githubusercontent.com/25957863/217872632-118db931-32b7-40fe-9f44-3d4993c31ab9.png)
+
+
 <img align="right" src="https://github.com/ada-school/module-template/blob/main/ada.png">
 
 ## Codelab 🧪 Implementing a REST API Service
