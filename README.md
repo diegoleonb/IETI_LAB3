@@ -68,7 +68,7 @@ Cuando damos click en cada una de las peticiones HTTP, se nos despliega un json 
 
 ![Imagen de WhatsApp 2023-02-08 a las 21 23 18](https://user-images.githubusercontent.com/25957863/217878511-3fc5faa2-9185-4e0f-a972-e6b1144091c9.jpg)
 
-Como podemos obersarvar se nos muestra una casilla denominada curl que hace referencia a la URL del modo detallado de la petición. Así cómo los encabezados de las de las peticiones http realizadas:
+Como podemos obersarvar se nos muestra una casilla denominada curl esta es una dirección que permite tener una respuesta de una petición HTTP. Así cómo los encabezados de las de las peticiones http realizadas:
 
 ![Imagen de WhatsApp 2023-02-08 a las 21 24 01](https://user-images.githubusercontent.com/25957863/217878877-c022391a-a585-4ff6-bf1f-2b97dff7f053.jpg)
 
